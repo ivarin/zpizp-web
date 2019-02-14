@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption {
+    margin-bottom: 15px;
+}
+
+table, th, td {
+    border: 1px solid #525B76;
+}
+
+th, td {
+    padding: 5px;
+}

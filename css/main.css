@@ -1,0 +1,87 @@
+@import url('tables.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    display: none;
+}
+
+.sidebar {
+    width: 30%;
+    padding-left: 15px;
+    float: left;
+}
+
+.content {
+    width: 70%;
+    float: left;
+}
+
+.header {
+    width: 100%;
+    padding: 15px 100px 15px 15px;
+}
+
+.title {
+    font-size: 42px;
+}
+
+.subtitle {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.description {
+    margin: 0 0 15px;
+    padding: 15px;
+    background-color: rgba(82, 91, 118, 0.7);
+    color: white;
+}
+
+section {
+    margin-bottom: 15px;
+    padding: 15px 0;
+}
+
+section:not(:last-child) {
+    border-bottom: 1px solid rgba(82, 91, 118, 0.3);
+}
+
+.gallery-link {
+    margin: 0 0 15px;
+    padding: 15px;
+    border: 1px solid rgba(82, 91, 118, 0.7);
+}
+
+.gallery-link a {
+    font-size: 24px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+a {
+    color: rgba(82, 91, 118, 0.7);
+}
+
+ul,
+ol {
+    padding-left: 50px;
+}
+
+ul li,
+ol li {
+    padding-left: 10px;
+}
